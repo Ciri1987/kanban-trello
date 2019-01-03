@@ -48,11 +48,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 this.element.parentNode.removeChild(this.element);
             }
         };
-
-
-
-
-
     }
 
     function Card(description) {
@@ -84,7 +79,7 @@ document.addEventListener('DOMContentLoaded', function () {
         name: 'Kanban Board',
         addColumn: function (column) {
             this.element.appendChild(column.element);
-            initSortable(column.id); //About this feature we will tell later
+            initSortable(column.id);
         },
         element: document.querySelector('#board .column-container')
     };
@@ -120,7 +115,5 @@ document.addEventListener('DOMContentLoaded', function () {
     // ADDING CARDS TO COLUMNS
     todoColumn.addCard(card1);
     doingColumn.addCard(card2);
-
-
 
 });
