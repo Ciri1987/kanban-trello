@@ -39,16 +39,16 @@ document.addEventListener('DOMContentLoaded', function () {
                 self.addCard(new Card(prompt("Enter the name of the card")));
             }
         });
-
-        Column.prototype = {
-            addCard: function (card) {
-                this.element.querySelector('ul').appendChild(card.element);
-            },
-            removeColumn: function () {
-                this.element.parentNode.removeChild(this.element);
-            }
-        };
     }
+    //prototypes for Column 
+    Column.prototype = {
+        addCard: function (card) {
+            this.element.querySelector('ul').appendChild(card.element);
+        },
+        removeColumn: function () {
+            this.element.parentNode.removeChild(this.element);
+        }
+    };
 
     function Card(description) {
         var self = this;
