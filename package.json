@@ -1,8 +1,8 @@
 {
-  "name": "places-to-visit",
+  "name": "kanban-tello",
   "version": "1.0.0",
   "description": "Kodilla project",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "npm-run-all test:*",
     "test:html": "globstar nu-html-checker *.html",
@@ -40,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Ciri1987/places-to-visit.git"
+    "url": "git+https://github.com/Ciri1987/kanban-trello"
   }
 }
