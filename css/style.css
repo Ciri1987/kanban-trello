@@ -24,8 +24,6 @@ body {
   margin-top: 30px;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-align: center;
-      align-items: center;
   -ms-flex-pack: center;
       justify-content: center;
   -ms-flex-wrap: wrap;
@@ -71,5 +69,6 @@ button {
 
 ul {
   list-style-type: none;
+  width: 300px;
 }
 /*# sourceMappingURL=style.css.map */
